@@ -23,4 +23,8 @@ public class AuthenticationService {
             print("Invalid url:\(url)")
         }
     }
+    
+    public func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return true
+    }
 }

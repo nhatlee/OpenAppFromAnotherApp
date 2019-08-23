@@ -13,7 +13,7 @@
 		DC6C02CA230FCF3D00EB620C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6C02C9230FCF3D00EB620C /* Assets.xcassets */; };
 		DC6C02CD230FCF3D00EB620C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6C02CB230FCF3D00EB620C /* LaunchScreen.storyboard */; };
 		DC6C02D8230FCF3D00EB620C /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C02D7230FCF3D00EB620C /* ChatAppTests.swift */; };
-		DC6C0337230FE45500EB620C /* AuthenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C0336230FE45500EB620C /* AuthenSDK.framework */; };
+		DC6C0352230FF0A300EB620C /* AuthenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C0351230FF0A300EB620C /* AuthenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		DC6C02D3230FCF3D00EB620C /* ChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6C02D7230FCF3D00EB620C /* ChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppTests.swift; sourceTree = "<group>"; };
 		DC6C02D9230FCF3D00EB620C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6C0336230FE45500EB620C /* AuthenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AuthenSDK.framework; sourceTree = "<group>"; };
+		DC6C0351230FF0A300EB620C /* AuthenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AuthenSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6C0337230FE45500EB620C /* AuthenSDK.framework in Frameworks */,
+				DC6C0352230FF0A300EB620C /* AuthenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		DC6C0308230FD38B00EB620C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC6C0336230FE45500EB620C /* AuthenSDK.framework */,
+				DC6C0351230FF0A300EB620C /* AuthenSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -380,6 +380,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,6 +404,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -5,8 +5,12 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>chat-010101</string>
+			</array>
 			<key>CFBundleURLName</key>
-			<string>chatapp</string>
+			<string>chat</string>
 		</dict>
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
