@@ -16,6 +16,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DC1D568E230FFECF003B95A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1D5689230FFECF003B95A7 /* AuthenSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC6C02EC230FD03A00EB620C;
+			remoteInfo = AuthenSDK;
+		};
+		DC1D5690230FFECF003B95A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1D5689230FFECF003B95A7 /* AuthenSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC6C02F5230FD03A00EB620C;
+			remoteInfo = AuthenSDKTests;
+		};
 		DC6C02A8230FCF0800EB620C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC6C028B230FCF0600EB620C /* Project object */;
@@ -26,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC1D5689230FFECF003B95A7 /* AuthenSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AuthenSDK.xcodeproj; path = AuthenSDK/AuthenSDK.xcodeproj; sourceTree = "<group>"; };
 		DC6C0293230FCF0600EB620C /* AuthenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6C0296230FCF0600EB620C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6C0298230FCF0600EB620C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +71,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC1D5683230FFE0C003B95A7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D5689230FFECF003B95A7 /* AuthenSDK.xcodeproj */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		DC1D568A230FFECF003B95A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D568F230FFECF003B95A7 /* AuthenSDK.framework */,
+				DC1D5691230FFECF003B95A7 /* AuthenSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DC6C028A230FCF0600EB620C = {
 			isa = PBXGroup;
 			children = (
 				DC6C0295230FCF0600EB620C /* AuthenApp */,
+				DC1D5683230FFE0C003B95A7 /* Libs */,
 				DC6C02AA230FCF0800EB620C /* AuthenAppTests */,
 				DC6C0294230FCF0600EB620C /* Products */,
 			);
@@ -164,6 +197,12 @@
 			mainGroup = DC6C028A230FCF0600EB620C;
 			productRefGroup = DC6C0294230FCF0600EB620C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC1D568A230FFECF003B95A7 /* Products */;
+					ProjectRef = DC1D5689230FFECF003B95A7 /* AuthenSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DC6C0292230FCF0600EB620C /* AuthenApp */,
@@ -171,6 +210,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC1D568F230FFECF003B95A7 /* AuthenSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AuthenSDK.framework;
+			remoteRef = DC1D568E230FFECF003B95A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC1D5691230FFECF003B95A7 /* AuthenSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AuthenSDKTests.xctest;
+			remoteRef = DC1D5690230FFECF003B95A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC6C0291230FCF0600EB620C /* Resources */ = {

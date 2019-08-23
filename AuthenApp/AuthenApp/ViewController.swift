@@ -16,11 +16,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func denied(_ sender: Any) {
-        
+        let url = URL(string: "chat-010101://?errorcode=-1&message=user_denied")!
+        open(url: url)
     }
     
     @IBAction func accept(_ sender: Any) {
         let url = URL(string: "chat-010101://?userid=123456&token=abc..xyz")!
+        open(url: url)
+    }
+    
+    private func open(url: URL) {
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:]) { (completed) in
                 print("Success callback")

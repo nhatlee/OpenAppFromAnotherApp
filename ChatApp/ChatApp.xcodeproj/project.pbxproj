@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1D56932310028F003B95A7 /* AuthenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D56922310028F003B95A7 /* AuthenSDK.framework */; };
 		DC6C02C3230FCF3C00EB620C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C02C2230FCF3C00EB620C /* AppDelegate.swift */; };
 		DC6C02C5230FCF3C00EB620C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C02C4230FCF3C00EB620C /* ViewController.swift */; };
 		DC6C02C8230FCF3C00EB620C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6C02C6230FCF3C00EB620C /* Main.storyboard */; };
 		DC6C02CA230FCF3D00EB620C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6C02C9230FCF3D00EB620C /* Assets.xcassets */; };
 		DC6C02CD230FCF3D00EB620C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6C02CB230FCF3D00EB620C /* LaunchScreen.storyboard */; };
 		DC6C02D8230FCF3D00EB620C /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C02D7230FCF3D00EB620C /* ChatAppTests.swift */; };
-		DC6C0352230FF0A300EB620C /* AuthenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C0351230FF0A300EB620C /* AuthenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC1D56922310028F003B95A7 /* AuthenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AuthenSDK.framework; sourceTree = "<group>"; };
 		DC6C02BF230FCF3C00EB620C /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6C02C2230FCF3C00EB620C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6C02C4230FCF3C00EB620C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		DC6C02D3230FCF3D00EB620C /* ChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6C02D7230FCF3D00EB620C /* ChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppTests.swift; sourceTree = "<group>"; };
 		DC6C02D9230FCF3D00EB620C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6C0351230FF0A300EB620C /* AuthenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AuthenSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6C0352230FF0A300EB620C /* AuthenSDK.framework in Frameworks */,
+				DC1D56932310028F003B95A7 /* AuthenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		DC6C0308230FD38B00EB620C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC6C0351230FF0A300EB620C /* AuthenSDK.framework */,
+				DC1D56922310028F003B95A7 /* AuthenSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
