@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6C0297230FCF0600EB620C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C0296230FCF0600EB620C /* AppDelegate.swift */; };
+		DC6C0299230FCF0600EB620C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C0298230FCF0600EB620C /* ViewController.swift */; };
+		DC6C029C230FCF0600EB620C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6C029A230FCF0600EB620C /* Main.storyboard */; };
+		DC6C029E230FCF0700EB620C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6C029D230FCF0700EB620C /* Assets.xcassets */; };
+		DC6C02A1230FCF0700EB620C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6C029F230FCF0700EB620C /* LaunchScreen.storyboard */; };
+		DC6C02AC230FCF0800EB620C /* AuthenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C02AB230FCF0800EB620C /* AuthenAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6C02A8230FCF0800EB620C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6C028B230FCF0600EB620C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6C0292230FCF0600EB620C;
+			remoteInfo = AuthenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC6C0293230FCF0600EB620C /* AuthenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6C0296230FCF0600EB620C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC6C0298230FCF0600EB620C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC6C029B230FCF0600EB620C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6C029D230FCF0700EB620C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6C02A0230FCF0700EB620C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC6C02A2230FCF0700EB620C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6C02A7230FCF0800EB620C /* AuthenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6C02AB230FCF0800EB620C /* AuthenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenAppTests.swift; sourceTree = "<group>"; };
+		DC6C02AD230FCF0800EB620C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6C0290230FCF0600EB620C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6C02A4230FCF0800EB620C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6C028A230FCF0600EB620C = {
+			isa = PBXGroup;
+			children = (
+				DC6C0295230FCF0600EB620C /* AuthenApp */,
+				DC6C02AA230FCF0800EB620C /* AuthenAppTests */,
+				DC6C0294230FCF0600EB620C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6C0294230FCF0600EB620C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C0293230FCF0600EB620C /* AuthenApp.app */,
+				DC6C02A7230FCF0800EB620C /* AuthenAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6C0295230FCF0600EB620C /* AuthenApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C0296230FCF0600EB620C /* AppDelegate.swift */,
+				DC6C0298230FCF0600EB620C /* ViewController.swift */,
+				DC6C029A230FCF0600EB620C /* Main.storyboard */,
+				DC6C029D230FCF0700EB620C /* Assets.xcassets */,
+				DC6C029F230FCF0700EB620C /* LaunchScreen.storyboard */,
+				DC6C02A2230FCF0700EB620C /* Info.plist */,
+			);
+			path = AuthenApp;
+			sourceTree = "<group>";
+		};
+		DC6C02AA230FCF0800EB620C /* AuthenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C02AB230FCF0800EB620C /* AuthenAppTests.swift */,
+				DC6C02AD230FCF0800EB620C /* Info.plist */,
+			);
+			path = AuthenAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6C0292230FCF0600EB620C /* AuthenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6C02B0230FCF0800EB620C /* Build configuration list for PBXNativeTarget "AuthenApp" */;
+			buildPhases = (
+				DC6C028F230FCF0600EB620C /* Sources */,
+				DC6C0290230FCF0600EB620C /* Frameworks */,
+				DC6C0291230FCF0600EB620C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthenApp;
+			productName = AuthenApp;
+			productReference = DC6C0293230FCF0600EB620C /* AuthenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6C02A6230FCF0800EB620C /* AuthenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6C02B3230FCF0800EB620C /* Build configuration list for PBXNativeTarget "AuthenAppTests" */;
+			buildPhases = (
+				DC6C02A3230FCF0800EB620C /* Sources */,
+				DC6C02A4230FCF0800EB620C /* Frameworks */,
+				DC6C02A5230FCF0800EB620C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6C02A9230FCF0800EB620C /* PBXTargetDependency */,
+			);
+			name = AuthenAppTests;
+			productName = AuthenAppTests;
+			productReference = DC6C02A7230FCF0800EB620C /* AuthenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6C028B230FCF0600EB620C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = VNG;
+				TargetAttributes = {
+					DC6C0292230FCF0600EB620C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DC6C02A6230FCF0800EB620C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DC6C0292230FCF0600EB620C;
+					};
+				};
+			};
+			buildConfigurationList = DC6C028E230FCF0600EB620C /* Build configuration list for PBXProject "AuthenApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6C028A230FCF0600EB620C;
+			productRefGroup = DC6C0294230FCF0600EB620C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6C0292230FCF0600EB620C /* AuthenApp */,
+				DC6C02A6230FCF0800EB620C /* AuthenAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6C0291230FCF0600EB620C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6C02A1230FCF0700EB620C /* LaunchScreen.storyboard in Resources */,
+				DC6C029E230FCF0700EB620C /* Assets.xcassets in Resources */,
+				DC6C029C230FCF0600EB620C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6C02A5230FCF0800EB620C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6C028F230FCF0600EB620C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6C0299230FCF0600EB620C /* ViewController.swift in Sources */,
+				DC6C0297230FCF0600EB620C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6C02A3230FCF0800EB620C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6C02AC230FCF0800EB620C /* AuthenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6C02A9230FCF0800EB620C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6C0292230FCF0600EB620C /* AuthenApp */;
+			targetProxy = DC6C02A8230FCF0800EB620C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC6C029A230FCF0600EB620C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6C029B230FCF0600EB620C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC6C029F230FCF0700EB620C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6C02A0230FCF0700EB620C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6C02AE230FCF0800EB620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC6C02AF230FCF0800EB620C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6C02B1230FCF0800EB620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898EDDGZNP;
+				INFOPLIST_FILE = AuthenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.AuthenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC6C02B2230FCF0800EB620C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898EDDGZNP;
+				INFOPLIST_FILE = AuthenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.AuthenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC6C02B4230FCF0800EB620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898EDDGZNP;
+				INFOPLIST_FILE = AuthenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.AuthenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthenApp.app/AuthenApp";
+			};
+			name = Debug;
+		};
+		DC6C02B5230FCF0800EB620C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 898EDDGZNP;
+				INFOPLIST_FILE = AuthenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.AuthenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthenApp.app/AuthenApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6C028E230FCF0600EB620C /* Build configuration list for PBXProject "AuthenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6C02AE230FCF0800EB620C /* Debug */,
+				DC6C02AF230FCF0800EB620C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6C02B0230FCF0800EB620C /* Build configuration list for PBXNativeTarget "AuthenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6C02B1230FCF0800EB620C /* Debug */,
+				DC6C02B2230FCF0800EB620C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6C02B3230FCF0800EB620C /* Build configuration list for PBXNativeTarget "AuthenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6C02B4230FCF0800EB620C /* Debug */,
+				DC6C02B5230FCF0800EB620C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6C028B230FCF0600EB620C /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module AuthenSDK {
+  umbrella header "AuthenSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AuthenSDK.Swift {
+    header "AuthenSDK-Swift.h"
+    requires objc
+}
